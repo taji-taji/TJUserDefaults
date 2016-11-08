@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		93A37A091DD20D35007131C4 /* TJUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A37A071DD20D35007131C4 /* TJUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93A37A101DD20D7E007131C4 /* TJUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A37A0F1DD20D7E007131C4 /* TJUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93A37A041DD20D35007131C4 /* TJUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TJUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A37A071DD20D35007131C4 /* TJUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJUserDefaults.h; sourceTree = "<group>"; };
 		93A37A081DD20D35007131C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A37A0F1DD20D7E007131C4 /* TJUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJUserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				93A37A071DD20D35007131C4 /* TJUserDefaults.h */,
+				93A37A0F1DD20D7E007131C4 /* TJUserDefaults.swift */,
 				93A37A081DD20D35007131C4 /* Info.plist */,
 			);
 			path = TJUserDefaults;
@@ -96,6 +99,7 @@
 					93A37A031DD20D35007131C4 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = R5U4C8KFRC;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A37A101DD20D7E007131C4 /* TJUserDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +245,7 @@
 		93A37A0D1DD20D35007131C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = R5U4C8KFRC;
@@ -252,6 +258,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.engideer.TJUserDefaults;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -259,6 +266,7 @@
 		93A37A0E1DD20D35007131C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = R5U4C8KFRC;
