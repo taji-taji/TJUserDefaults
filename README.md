@@ -13,6 +13,11 @@ There are some merits.
 - You can set and get a value of UserDefaults in natural notation
 - This makes type of keys strict
 
+# Requirements
+
+- iOS 8.2+
+- Swift3.0+
+
 # Usual usage of UserDefaults
 
 ```swift
